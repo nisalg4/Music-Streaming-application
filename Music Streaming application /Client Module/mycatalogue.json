@@ -1,0 +1,20 @@
+[{
+    "remoteMethod": "getSongChunk",
+    "object": "SongServices",
+    "call_semantics": "maybe",
+    "param": {
+      "song": "java.lang.Long",
+      "fragment": "java.lang.Long"
+    },
+    "ret": "java.lang.Byte[]"
+  },
+  {
+    "remoteMethod": "validateUser",
+    "object": "userServices",
+    "call_semantics": "at-least-one",
+    "param": {
+      "username": "java.lang.String",
+      "password": "java.lang.String"
+    },
+    "ret": "java.lang.boolean"
+  }]
